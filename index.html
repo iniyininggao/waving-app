@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="vite.svg" />
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0" /> -->
+    <title>Waving App</title>
+  </head>
+  <body>
+    <div id="app">
+      <div id="content">
+
+        <nav>
+          <ul class="content-field">
+            <li><a href="/index.html">Main</a></li>
+            <!-- <li><a href="/html/analyse.html">Analyse</a></li> -->
+            <li><a href="/html/login.html">Login</a></li>
+          </ul> 
+          <h1>WAVING</h1>
+          <h2>web accessibility evaluation tool</h2>
+          <h3>Testing the Web for Everyone, One Page at a Time</h3> 
+          <!-- <script src="/js/navbar.js"></script> -->
+            <!-- <iframe src="/html/content.html"></iframe>   -->
+        </nav>
+
+        <div id="main">
+          <div id="url-input-field">
+            <!-- <form id="waveform">
+              <label>The accessibility results for the following websites are as follows:</label><br>
+              <p>https://developer.mozilla.org/zh-CN/docs/Web/API/fetch</p>
+               <input type="url" id="urlInput" placeholder=""> -->
+              <!-- <button type="submit" id="sendUrlBtn">send</button>
+            </form> -->
+            <label>The accessibility results for the following websites are as follows:</label><br>
+            <p>https://developer.mozilla.org/zh-CN/docs/Web/API/fetch</p>
+          </div>
+  
+          <div id="analyse-overview">
+            <!-- feedbackContrast, feedbackContrastDescription, feedbackError, feedbackFeature -->
+            <div id="contrast">
+              <h4>Contrast:</h4>
+              <p id="contrast-count"></p>
+              <p id="contrast-description"></p>
+            </div>
+  
+            <div id="error">
+              <h4>Error:</h4>
+              <p id="error-count"></p>
+            </div>
+  
+            <div id="feature">
+              <h4>Feature:</h4>
+              <p id="Feature-count"></p>
+            </div>
+          </div>
+  
+          <p>Click <a href="/html/login.html">here</a> to login</p>
+        </div>
+
+      </div>
+
+    </div>
+    <script type="module" src="../js/main.js"></script>
+  </body>
+</html>
