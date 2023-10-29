@@ -19,7 +19,7 @@ let testedWebUrl = 'https://developer.mozilla.org/zh-CN/docs/Web/API/fetch';
 //var testedWebUrl = ''; 
 //var testedWebUrl,waveApiUrl;
 const apiKey = 'U4ZH4frj3500';
-//var waveApiUrl = waveApiUrl = `https://wave.webaim.org/api/request?key=${apiKey}&url=${testedWebUrl}&reporttype=2`;
+var waveApiUrl = waveApiUrl = `https://wave.webaim.org/api/request?key=${apiKey}&url=${testedWebUrl}&reporttype=2`;
 //const waveApiUrl = `https://www.google.com/`;
 const requestInit = {
   method: 'GET',
